@@ -18,7 +18,7 @@ DEPEND="${RDEPEND}"
 
 MODULE_NAMES="r8152(net/usb:${S})"
 BUILD_TARGETS="modules"
-IUSE="+center-tap-short"
+IUSE="+center-tap-short dist-kernel"
 
 # https://github.com/wget/realtek-r8152-linux/ keeps reasonably up to date
 # with kernel support patches. It appears to be used by the AUR maintainer.
